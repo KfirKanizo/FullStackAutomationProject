@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!--TimeOut -->
+    <TimeOut>5</TimeOut>
+
+    <!-- Platform -->
+    <PlatformName>Web</PlatformName>
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <url>https://demo.nopcommerce.com/</url>
+    <ImageRepo>./imageRepository/</ImageRepo>
+
+    <!-- Mobile -->
+    <UDID>RF8M21KSW9M</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+
+
+</Environment>
