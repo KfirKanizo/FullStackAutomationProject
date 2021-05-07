@@ -1,6 +1,5 @@
 package Utilities;
 
-import com.gargoylesoftware.htmlunit.Page;
 import org.openqa.selenium.support.PageFactory;
 
 public class managePages extends base
@@ -17,5 +16,6 @@ public class managePages extends base
 
         mortgageMain = PageFactory.initElements(driver, PageObjects.Mortgage.mainPage.class);
         electronMain = PageFactory.initElements(driver, PageObjects.ElectronDemo.mainPage.class);
+        calcMain = PageFactory.initElements(driver, PageObjects.DesktopCalc.mainPage.class);
     }
 }

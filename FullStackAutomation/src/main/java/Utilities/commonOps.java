@@ -2,9 +2,9 @@ package Utilities;
 
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.windows.WindowsDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,9 +16,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.w3c.dom.Document;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -102,7 +104,7 @@ public class commonOps extends base
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, getData("APP_ACTIVITY"));
         try
         {
-            driver = new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"), dc);
+            driver = new RemoteWebDriver(new URL(getData("AppiumServer") + "/wd/hub"), dc);
         }
         catch (Exception e)
         {
@@ -123,6 +125,19 @@ public class commonOps extends base
 
     }
 
+    public static void  initDesktop()
+    {
+      try
+      {
+          dc.setCapability("app" , getData("CalculatorApp"));
+          driver = new WindowsDriver (new URL(getData("AppiumServer")), dc);
+      } catch (MalformedURLException e)
+      {
+          System.out.println("Can not connect to Appium Server, See Details: " + e);
+      }
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
+    }
+
     @BeforeClass
     public void startSession()
     {
@@ -132,6 +147,8 @@ public class commonOps extends base
             initMobile();
         else if (getData("PlatformName").equalsIgnoreCase("Electron"))
             initElectron();
+        else if (getData("PlatformName").equalsIgnoreCase("Desktop"))
+            initDesktop();
         else
             throw new RuntimeException("Invalid platform name stated");
 

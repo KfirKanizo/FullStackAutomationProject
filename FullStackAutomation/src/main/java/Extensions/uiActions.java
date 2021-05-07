@@ -13,7 +13,8 @@ public class uiActions extends commonOps
     public static void click (WebElement elem)
     {
         if (!getData("PlatformName").equalsIgnoreCase("Mobile") &&
-                !getData("PlatformName").equalsIgnoreCase("Electron"))
+                (!getData("PlatformName").equalsIgnoreCase("Electron")) &&
+                     !getData("PlatformName").equalsIgnoreCase("Desktop"))
         {
             wait.until(ExpectedConditions.elementToBeClickable(elem));
         }

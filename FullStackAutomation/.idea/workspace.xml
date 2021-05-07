@@ -37,7 +37,61 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.electronDemo">
+  <component name="RunManager" selected="TestNG.CalcDesktop.TC01_CalcAddition (1)">
+    <configuration name="CalcDesktop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.CalcDesktop" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcDesktop.TC01_CalcAddition (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.CalcDesktop" />
+      <option name="METHOD_NAME" value="TC01_CalcAddition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcDesktop.TC01_CalcAddition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.CalcDesktop" />
+      <option name="METHOD_NAME" value="TC01_CalcAddition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="electronDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FullStackAutomation" />
       <extension name="coverage">
@@ -73,66 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mortgageMobile.TC01_VerifyRepayment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FullStackAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.mortgageMobile" />
-      <option name="METHOD_NAME" value="TC01_VerifyRepayment" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nopCommerceWeb" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FullStackAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nopCommerceWeb.TC03_addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FullStackAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
-      <option name="METHOD_NAME" value="TC03_addToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalcDesktop.TC01_CalcAddition (1)" />
+        <item itemvalue="TestNG.CalcDesktop.TC01_CalcAddition" />
+        <item itemvalue="TestNG.CalcDesktop" />
         <item itemvalue="TestNG.electronDemo" />
         <item itemvalue="TestNG.electronDemo.TC01_getAppVersion" />
-        <item itemvalue="TestNG.mortgageMobile.TC01_VerifyRepayment" />
-        <item itemvalue="TestNG.nopCommerceWeb" />
-        <item itemvalue="TestNG.nopCommerceWeb.TC03_addToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -162,22 +163,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620351465512" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1620355438072">
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom" timestamp="1620391057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1620355438072">
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620391057065" />
+    <state width="1877" height="407" key="GridCell.Tab.0.center" timestamp="1620391057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1620355438072">
+    <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620391057065" />
+    <state width="1877" height="407" key="GridCell.Tab.0.left" timestamp="1620391057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1620355438072">
+    <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620391057065" />
+    <state width="1877" height="407" key="GridCell.Tab.0.right" timestamp="1620391057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
+    <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620391057065" />
+    <state x="490" y="176" key="Maven.ArtifactSearchDialog" timestamp="1620358106690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="176" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620358106690" />
     <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1620317009924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

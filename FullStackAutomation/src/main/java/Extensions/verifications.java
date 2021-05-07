@@ -23,11 +23,13 @@ public class verifications extends commonOps
     public static void textInElement(WebElement elem, String expectedValue)
     {
         if (!getData("PlatformName").equalsIgnoreCase("Mobile") &&
-        !getData("PlatformName").equalsIgnoreCase("Electron"))
-        {
+                (!getData("PlatformName").equalsIgnoreCase("Electron")) &&
+                    !getData("PlatformName").equalsIgnoreCase("Desktop"))
             wait.until(ExpectedConditions.visibilityOf(elem));
-        }
-        assertEquals(elem.getText(), expectedValue);
+        if (getData("PlatformName").equalsIgnoreCase("Desktop"))
+                assertEquals(elem.getText().replaceAll("Display is", "").trim(), expectedValue);
+        else
+            assertEquals(elem.getText(), expectedValue);
     }
 
     @Step ("Verify the Number of Elements Equals to")
