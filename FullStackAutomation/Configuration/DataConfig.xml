@@ -4,7 +4,7 @@
     <TimeOut>5</TimeOut>
 
     <!-- Platform -->
-    <PlatformName>Web</PlatformName>
+    <PlatformName>Electron</PlatformName>
 
     <!-- Web -->
     <BrowserName>Chrome</BrowserName>
@@ -16,5 +16,8 @@
     <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
     <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
 
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/ElectronDriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/Electron API Demos-win32-ia32/Electron API Demos.exe</ElectronAppPath>
 
 </Environment>

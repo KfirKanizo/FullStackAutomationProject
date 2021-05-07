@@ -6,6 +6,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -110,6 +111,18 @@ public class commonOps extends base
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
     }
 
+    public static void  initElectron()
+    {
+        System.setProperty("webdriver.chrome.driver", getData("ElectronDriverPath"));
+        ChromeOptions opt = new ChromeOptions();
+        opt.setBinary(getData("ElectronAppPath"));
+        dc.setCapability("chromeOptions", opt);
+        dc.setBrowserName("Chrome");
+        driver = new ChromeDriver(dc);
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
+
+    }
+
     @BeforeClass
     public void startSession()
     {
@@ -117,6 +130,8 @@ public class commonOps extends base
             initBrowser(getData("BrowserName"));
         else if (getData("PlatformName").equalsIgnoreCase("Mobile"))
             initMobile();
+        else if (getData("PlatformName").equalsIgnoreCase("Electron"))
+            initElectron();
         else
             throw new RuntimeException("Invalid platform name stated");
 

@@ -12,7 +12,8 @@ public class uiActions extends commonOps
     @Step ("Click on Element")
     public static void click (WebElement elem)
     {
-        if (!getData("PlatformName").equalsIgnoreCase("Mobile"))
+        if (!getData("PlatformName").equalsIgnoreCase("Mobile") &&
+                !getData("PlatformName").equalsIgnoreCase("Electron"))
         {
             wait.until(ExpectedConditions.elementToBeClickable(elem));
         }

@@ -16,5 +16,6 @@ public class managePages extends base
         nopCommerceBuildComputerPage = PageFactory.initElements(driver, PageObjects.nopCommerce.buildComputerPage.class);
 
         mortgageMain = PageFactory.initElements(driver, PageObjects.Mortgage.mainPage.class);
+        electronMain = PageFactory.initElements(driver, PageObjects.ElectronDemo.mainPage.class);
     }
 }

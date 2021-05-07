@@ -31,4 +31,6 @@ public class base
 
 
     public static PageObjects.Mortgage.mainPage mortgageMain;
+
+    public static PageObjects.ElectronDemo.mainPage electronMain;
 }

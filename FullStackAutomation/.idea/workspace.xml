@@ -37,10 +37,59 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.nopCommerceWeb">
-    <configuration name="students.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/students.jar" />
-      <method v="2" />
+  <component name="RunManager" selected="TestNG.electronDemo">
+    <configuration name="electronDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.electronDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="electronDemo.TC01_getAppVersion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.electronDemo" />
+      <option name="METHOD_NAME" value="TC01_getAppVersion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mortgageMobile.TC01_VerifyRepayment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FullStackAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.mortgageMobile" />
+      <option name="METHOD_NAME" value="TC01_VerifyRepayment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="nopCommerceWeb" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FullStackAutomation" />
@@ -53,42 +102,6 @@
       <option name="PACKAGE_NAME" value="SanityTests" />
       <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nopCommerceWeb.TC01_RegisterAndLogout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FullStackAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
-      <option name="METHOD_NAME" value="TC01_RegisterAndLogout" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nopCommerceWeb.TC02_login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FullStackAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.nopCommerceWeb" />
-      <option name="METHOD_NAME" value="TC02_login" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.electronDemo" />
+        <item itemvalue="TestNG.electronDemo.TC01_getAppVersion" />
+        <item itemvalue="TestNG.mortgageMobile.TC01_VerifyRepayment" />
         <item itemvalue="TestNG.nopCommerceWeb" />
         <item itemvalue="TestNG.nopCommerceWeb.TC03_addToCart" />
-        <item itemvalue="TestNG.nopCommerceWeb.TC01_RegisterAndLogout" />
-        <item itemvalue="TestNG.nopCommerceWeb.TC02_login" />
-        <item itemvalue="JAR Application.students.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +154,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620318276926" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1620318412522">
+    <state x="664" y="204" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1620353267012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620318412522" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1620318412521">
+    <state x="664" y="204" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620353267012" />
+    <state x="599" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620351465512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620318412521" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1620318412521">
+    <state x="599" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620351465512" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1620355438072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620318412521" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1620318412521">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1620355438072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620318412521" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1620355438072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1620355438072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1620355438072" />
     <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1620317009924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

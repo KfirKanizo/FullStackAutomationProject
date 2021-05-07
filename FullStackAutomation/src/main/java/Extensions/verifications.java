@@ -22,7 +22,8 @@ public class verifications extends commonOps
     @Step ("Verify Text in Element")
     public static void textInElement(WebElement elem, String expectedValue)
     {
-        if (!getData("PlatformName").equalsIgnoreCase("Mobile"))
+        if (!getData("PlatformName").equalsIgnoreCase("Mobile") &&
+        !getData("PlatformName").equalsIgnoreCase("Electron"))
         {
             wait.until(ExpectedConditions.visibilityOf(elem));
         }
